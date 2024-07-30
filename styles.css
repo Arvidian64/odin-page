@@ -2,3 +2,47 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.header,
+.actionbox {
+    padding: 16px 32px;
+}
+
+.content,
+.quotebox {
+    padding: 32px 64px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkbox {
+    display: flex;
+    gap: 16px;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quotebox {
+    background-color: #E5E7EB;
+}
