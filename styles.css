@@ -33,6 +33,17 @@ body {
     justify-content: space-between;
 }
 
+.underheader {
+    padding: 64px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.underheader p {
+    width: 560px;
+}
+
 .linkbox {
     display: flex;
     gap: 16px;
@@ -47,7 +58,12 @@ body {
     width: 163px;
 }
 
-img {
+.underheader img {
+    height: 280px;
+    width: auto;
+}
+
+.infocard img {
     height: 160px;
     width: 160px;
     border: 3px solid #3882F6;
@@ -99,6 +115,15 @@ p {
 a {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 4px 24px;
 }
 
 .quotebox {
