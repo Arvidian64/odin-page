@@ -80,6 +80,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -128,6 +129,21 @@ button {
 
 .quotebox {
     background-color: #E5E7EB;
+}
+
+.quotebox p {
+    color: #1F2937;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bluebox button {
+    border: 2px solid #F9FAF8;
+    align-self: center;
 }
 
 .footer {
